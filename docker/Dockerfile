@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN apt update
-RUN apt install -y curl vim 
+ENV hello="Hello World"
+ENV hoge="HOGEHOGE"
 
-CMD ["bash"]
+CMD ["bash"] 
